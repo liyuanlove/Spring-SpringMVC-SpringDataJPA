@@ -1,7 +1,5 @@
 <ehcache>
-
-    <diskStore path="java.io.tmpdir"/>
-
+    <diskStore path="D:\ehcache"/>
     <defaultCache
             maxElementsInMemory="10000"
             eternal="false"
@@ -9,7 +7,6 @@
             timeToLiveSeconds="120"
             overflowToDisk="true"
     />
-
     <cache name="sampleCache1"
            maxElementsInMemory="10000"
            eternal="false"
@@ -17,7 +14,6 @@
            timeToLiveSeconds="600"
            overflowToDisk="true"
     />
-
     <cache name="sampleCache2"
            maxElementsInMemory="1000"
            eternal="true"
@@ -25,5 +21,4 @@
            timeToLiveSeconds="0"
            overflowToDisk="false"
     />
-
 </ehcache>
